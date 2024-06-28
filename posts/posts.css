@@ -1,0 +1,32 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px;
+}
+
+.post {
+    background-color: #ffffff; /* White background */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+.post .username {
+    font-weight: bold;
+}
+
+.post .date {
+    font-size: 0.8em;
+    color: #6c757d; /* Gray color */
+}
+
+#logoutButton {
+    cursor: pointer;
+    color: #dc3545; /* Bootstrap danger color */
+}
+
+#logoutButton:hover {
+    text-decoration: underline;
+}

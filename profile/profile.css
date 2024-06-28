@@ -1,0 +1,29 @@
+ /* Custom styles */
+ body {
+    background-color: #f8f9fa; /* Light gray background */
+}
+#profilepage {
+    padding-top: 50px; /* Adjust top padding as needed */
+}
+#page-container {
+    height: 100vh; /* Full viewport height */
+}
+.card {
+    width: 16rem;
+    margin-left: auto; /* Center card horizontally */
+    margin-right: auto;
+    margin-top: 12%;
+    background-color: #fff; /* White card background */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle box-shadow */
+}
+#bioName {
+    margin-bottom: 0; /* Remove default margin */
+}
+#postForm {
+    max-width: 500px; /* Limit form width */
+    margin: 0 auto; /* Center form horizontally */
+    background-color: #fff; /* White form background */
+    padding: 20px;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle box-shadow */
+}
